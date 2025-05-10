@@ -1,0 +1,61 @@
+### Автоматически генерируемые файлы ###
+# Бинарные и временные файлы
+*.class
+*.log
+*.lock
+*.bin
+*.tmp
+*.swp
+*.swo
+*.bak
+~$*
+
+### Артефакты сборки ###
+/target/
+/build/
+/out/
+/dist/
+/.gradle/
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+gradlew
+gradlew.bat
+
+### Системные файлы ###
+.DS_Store
+.Trashes
+.Spotlight-V100
+.fseventsd
+
+### IDE ###
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+### Локальные конфигурации ###
+!*.properties
+
+
+### Исходники - сохраняем ###
+!src/**/*.java
+!src/**/*.kt
+!src/**/*.xml
+!src/**/*.json
+!src/**/*.html
+!src/**/*.css
+!src/**/*.js
+
+### Важные системные файлы проекта ###
+!build.gradle
+!settings.gradle
+!pom.xml
+!README.md
+!LICENSE
